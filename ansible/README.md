@@ -1,6 +1,6 @@
 # Ansible
 
-This folder contains Ansible playbooks and templates designed for automating network configurations across Cisco IOS-XR and IOS-XE devices.
+This folder contains Ansible playbooks and templates designed for automating network configurations across Cisco devices.
 
 Each playbook is written in YAML and tested in real lab environments using EVE-NG. Tasks range from basic interface configuration to OSPF, VLANs, and loopback interfaces.
 
