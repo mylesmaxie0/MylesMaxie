@@ -1,5 +1,4 @@
-# RichardKilleen
-
+# MylesMaxie
 Welcome to my GitHub repository for my projects and technical documentation — **Myles Maxie**, computing major at the University of West Georgia.
 
 
