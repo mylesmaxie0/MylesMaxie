@@ -45,22 +45,6 @@ This repository acts as a reference index and file host for:
 ##  External Links
 -  [LinkedIn](https://www.linkedin.com/in/mylesmaxie/)
 
-
----
-
-##  How to Use
-
-1. Download or clone automation scripts, configs, and topologies.
-2. Use alongside blog posts or YouTube videos for full lab walkthroughs.
-3. Each script or lab includes embedded documentation for clarity and reuse.
-
----
-
-##  Related Categories
-
-- Network Automation (Ansible, Python)
-- Cisco Configuration Labs 
-
 ---
 
 ##  Disclaimer
