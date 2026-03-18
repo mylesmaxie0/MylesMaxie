@@ -1,0 +1,14 @@
+---
+- name: Play #1 - execute show version across platforms
+  hosts: all
+
+  tasks:
+    - name: “IOS - Execute show version"
+      ios_command:
+        commands: "show version | i Version"
+      register: output
+
+    - name: print output
+      debug:
+        var: output.stdout_lines[0]
+
