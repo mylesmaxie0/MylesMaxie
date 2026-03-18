@@ -1,4 +1,4 @@
-#### Ansible Playbooks
+Ansible Playbooks
 This directory includes Ansible playbooks for automating configuration on Cisco routers and switches.
 
 Each playbook is:
