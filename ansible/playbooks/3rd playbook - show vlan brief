@@ -1,0 +1,16 @@
+---
+- name: Play #1 - execute show vlan brief across platforms
+  hosts: all
+  gather_facts: no
+
+  tasks:
+    - name: IOS - Execute show vlan brief
+      ios_command:
+        commands: "show vlan brief"
+      register: output
+
+    - name: print output
+      debug:
+        var: output.stdout_lines
+
+        
