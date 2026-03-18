@@ -1,0 +1,17 @@
+---
+- name: Run show ip interface brief on network devices
+  hosts: all
+  gather_facts: no
+  connection: network_cli
+
+  tasks:
+    - name: Execute show ip int br
+      cisco.ios.ios_command:
+        commands:
+          - show ip int br
+      register: command_output
+
+    - name: Display output
+      debug:
+        var: command_output.stdout_lines
+        
